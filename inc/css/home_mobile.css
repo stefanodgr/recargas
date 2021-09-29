@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('roboto/Roboto.ttf');
+}
+
+body {
+    font-family: 'Roboto Regular';
+    font-size: 5vw;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.advertisement {
+    background: url('../../img/advertises/adv001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 0.5em;
+    vertical-align: bottom;
+}
+
+#shoppingcart {
+    /* background-color: #e7e7e7; */
+    background: url('../img/shopping-cart-solid.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    fill: bg-secondary;
+}
+
+.col1 {
+    padding-right: 0.25em;
+    float: left;
+}
+
+.col2 {
+    padding-right: 0.25em;
+    padding-left: 0.25em;
+    float: left;
+}
+
+.col3 {
+    padding-left: 0.25em;
+    float: left;
+}
+
+.titulo {
+    font-weight: bold;
+}

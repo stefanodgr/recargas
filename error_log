@@ -1,0 +1,7 @@
+[12-Mar-2020 14:09:31 Etc/GMT] PHP Notice:  Undefined index: secc in /home/tuordenya/public_html/adm_01.php on line 3
+[12-Mar-2020 14:09:31 Etc/GMT] PHP Warning:  include_once(../inc/db_conex.php): failed to open stream: No such file or directory in /home/tuordenya/public_html/adm_01.php on line 13
+[12-Mar-2020 14:09:31 Etc/GMT] PHP Warning:  include_once(): Failed opening '../inc/db_conex.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/tuordenya/public_html/adm_01.php on line 13
+[12-Mar-2020 14:09:31 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to undefined function db_conectar() in /home/tuordenya/public_html/adm_01.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/tuordenya/public_html/adm_01.php on line 14

@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('roboto/Roboto.ttf');
+}
+
+body {
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+    background-size:cover;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+select {
+    font-family: 'Roboto Regular';
+}
+
+.advertisement {
+    background: url('../../img/advertises/adv001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 0.5em;
+    vertical-align: bottom;
+}
+
+#shoppingcart {
+    /* background-color: #e7e7e7; */
+    background: url('../img/shopping-cart-solid.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    fill: bg-secondary;
+}
+
+.col1 {
+    padding-right: 0.25em;
+    float: left;
+}
+
+.col2 {
+    padding-right: 0.25em;
+    padding-left: 0.25em;
+    float: left;
+}
+
+.col3 {
+    padding-left: 0.25em;
+    float: left;
+}
+
+.titulo {
+    font-weight: bold;
+}
+
+.bg-dark2 {
+    background-color: #ea1638;
+    color: white;
+}
+
+.bg-dark3 {
+    background-color: #fff6f7;
+    color: rgb(0, 0, 0);
+}
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+  }
+  
+  /* style glyph */
+  .inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+  }
+  
+  /* align glyph */
+  .left-addon .glyphicon  { left:  0px;}
+  .right-addon .glyphicon { right: 0px;}
+  
+  /* add padding  */
+  .left-addon input  { padding-left:  30px; }
+  .right-addon input { padding-right: 30px; }
+
+  section article.menu{
+      border-width:2px ;
+      border-style: solid;
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      border-radius: 0px 0px 15px 15px;
+      margin: 10px 0px 10px 2%;
+      width: 85%;
+      font-size: 1.2em;
+
+  }
+
+  @media screen and (min-with: 767px){
+        /* header nav ul li{
+            width: 8%;
+        } */
+        section article.menu{
+            width: 40%;
+            margin: 50px 3% 20px 6% ;
+        }
+    }
+
+    @media screen and (min-with:950px){
+        section article.menu{
+            width: 26%;
+            margin: 50px 1% 20px 5% ;
+        }
+    }
